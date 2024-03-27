@@ -34,10 +34,13 @@ This lab was set up on a cloud workspace through Coursera.
 7. Go to Advanced Settings and Change the Inbound rule for Key Management Service from (Profile "All" Enabled "NO") to (Profile "Domain & Private" Enabled "Yes")
 8. Domain "General" tab to Allow the connection and Domain "Advanced" tab to turn off "Public"
 9. Duplicate the existing rule, modifying it to block connections for 'Public' networks. Then, activate the modified rule
-10. 
+
+    ![WindowsFirewall_Lab_KeyManagent2ndRule](https://github.com/OGkevq/Windows-Defender-Firewall-Lab/assets/159976397/755e52ac-ffc1-4ef7-b184-6dbd9e9be14d)
+
+   Ref3: Image shows both configured rules for Key Management Service firewall Rules. The first rule Allows connection to Domain and Private networks, while the second rule disallows Public network connections.
+    
 
 
 
-Example below.
 
-*Ref 1: Network Diagram*
+
