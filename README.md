@@ -1,30 +1,30 @@
 # Windows Defender & Firewall Lab
 
 ## Objective
-[Brief Objective - Remove this afterwards]
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+This beginner-friendly lab aimed to teach students how to minimize common security risks by learning to add and update security defenses using Microsoft Defender. It also went over how to configure firewall rules with and without Advanced Security.
 
 ### Skills Learned
-[Bullet Points - Remove this afterwards]
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+- Update Threat definitions
+- How to run Microsoft Windows Defender Antivirus Quick Scan and view 
+- Ability to configure Microsoft Windows Firewall rules
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- Microsoft Windows Defender
 
 ## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
+This lab was set up on a cloud workspace through Coursera. 
+1. Find Windows Defender (Start button-->Settings-->Update And Security-->Windows Security)
+2. Update threat protection
+   
+   ![WindowsFirewall_Lab_UpdateDefenitions (1)](https://github.com/OGkevq/Windows-Defender-Firewall-Lab/assets/159976397/1e7f2db5-b7c5-42e8-b6a4-41d82da64b70)
 
-Every screenshot should have some text explaining what the screenshot is about.
+   Ref1: Going to "Virus and Threat Protections" to Update definitions
+4. Run a quick scan  
+5. Perform a custom scan targeting the 'Downloads' section to identify any threats.
+
 
 Example below.
 
